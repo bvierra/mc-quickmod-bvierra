@@ -1,0 +1,10 @@
+{
+  "baseUrl": "https://rawgit.com/bvierra/mc-quickmod-bvierra/master/",
+  "repo": "bvierra.mc-quickmod",
+  "index": [
+    {
+      "uid": "funwayguy.EnviroMine",
+      "url": "EnviroMine.qm"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": 1,
+  "uid": "funwayguy.EnviroMine",
+  "modID": "EnviroMine",
+  "name": "EnviroMine",
+  "repo": "bvierra.mc-quickmod",
+  "description": "EnviroMine is all about environmental realism whether it be physics, body temperature, thirst, clean air or even keeping a sane mind in Mincraft's labyrinth of dark caves, it will test your survival skills and endurance",
+  "urls": {
+    "github": [
+      "https://github.com/Funwayguy/EnviroMine"
+    ],
+    "wiki": [
+      "https://github.com/Funwayguy/EnviroMine/wiki"
+    ],
+    "forum": [
+      "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1293048-enviromine-a-little-bit-of-realism-1-7-10-new"
+    ]
+  },
+  "updateUrl": "https://rawgit.com/bvierra/mc-quickmod-bvierra/master/EnviroMine.qm",
+  "tags": [
+    "physics",
+    "temperature",
+    "thirst"
+  ],
+  "authors": {
+    "Co-Founder": [
+      "Funwayguy ",
+      "TimbuckTato "
+    ],
+    "Assistant Programmer": [
+      "GenDeathrow",
+      "thislooksfun"
+    ]
+  },
+  "versions": [
+    {
+      "version": "1.3.72",
+      "name": "1.3.72",
+      "installType": "forgeMod",
+      "type": "Release",
+      "urls": [
+        {
+          "url": "https://drone.io/github.com/Funwayguy/EnviroMine-1.7/files/build/libs/EnviroMine-v1.3.72.jar",
+          "downloadType": "direct"
+        }
+      ],
+      "references": [
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.10",
+          "type": "depends"
+        },
+        {
+          "uid": "net.minecraftforge",
+          "version": "[10.13.0.1180,)",
+          "type": "depends"
+        }
+      ]
+    },
+    {
+      "version": "1.1.89",
+      "name": "1.1.89",
+      "installType": "forgeMod",
+      "type": "Release",
+      "urls": [
+        {
+          "url": "https://drone.io/github.com/Funwayguy/EnviroMine/files/build/libs/EnviroMine-v1.1.89.jar",
+          "downloadType": "direct"
+        }
+      ],
+      "references": [
+        {
+          "uid": "net.minecraft",
+          "version": "1.6.4",
+          "type": "depends"
+        },
+      ]
+    }
+  ]
+}
